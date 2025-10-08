@@ -1,9 +1,74 @@
-.tarjeta-receta {
-    border: 1px solid #e0e0e0;  /* Un borde gris muy suave */
-    border-radius: 8px;         /* Bordes redondeados */
-    padding: 20px;              /* Espacio interior */
-    margin-bottom: 20px;        /* Espacio entre las tarjetas */
+/* Estilos Generales */
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.7;
+    color: #333;
+    margin: 0;
+    background-color: #f9f9f9;
 }
-h3 {
-    color: #006400; /* Un verde oscuro */
+
+/* Encabezado */
+header {
+    background-color: #2E8B57; /* Verde mar */
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+/* Contenido Principal */
+main {
+    max-width: 900px;
+    margin: 40px auto; /* Centra el contenido */
+    padding: 0 20px;
+}
+
+.recipe-gallery h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+/* Tarjetas de Recetas */
+.recipe-card {
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    transition: transform 0.2s ease-in-out;
+}
+
+.recipe-card:hover {
+    transform: translateY(-5px); /* Efecto al pasar el mouse */
+}
+
+.recipe-card h3 {
+    color: #2E8B57;
+    margin-top: 0;
+}
+
+.recipe-card ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.recipe-card li::before {
+    content: '✓';
+    color: #2E8B57;
+    margin-right: 10px;
+}
+
+/* Pie de Página */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    background-color: #333;
+    color: white;
 }
