@@ -1,0 +1,9 @@
+.tarjeta-receta {
+    border: 1px solid #e0e0e0;  /* Un borde gris muy suave */
+    border-radius: 8px;         /* Bordes redondeados */
+    padding: 20px;              /* Espacio interior */
+    margin-bottom: 20px;        /* Espacio entre las tarjetas */
+}
+h3 {
+    color: #006400; /* Un verde oscuro */
+}
